@@ -101,12 +101,208 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AddToCart.aspx" />
+    <Content Include="Admin\PasswordEncrypt.aspx" />
+    <Content Include="Agreement.aspx" />
+    <Content Include="Agreement.txt" />
+    <Content Include="AlsoBought.aspx" />
+    <Content Include="CategoryAdd.aspx" />
+    <Content Include="CategoryList.aspx" />
+    <Content Include="CheckLogin.aspx" />
+    <Content Include="CheckOut.aspx" />
+    <Content Include="Company.aspx" />
+    <Content Include="Company.xml" />
+    <Content Include="Company.xslt" />
+    <Content Include="CompanyAdmin.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Doucments\Readme.txt" />
     <Content Include="Doucments\ShoppingDB.sql" />
+    <Content Include="EventNames.aspx" />
+    <Content Include="OrderDetails.aspx" />
+    <Content Include="OrderList.aspx" />
+    <Content Include="PasswordReminder.aspx" />
+    <Content Include="PopularItems.aspx" />
+    <Content Include="ProductAdd.aspx" />
+    <Content Include="ProductCatalog.aspx" />
+    <Content Include="ProductDetailsPage.aspx" />
+    <Content Include="ProductPages.aspx" />
+    <Content Include="ProductsLIst.aspx" />
+    <Content Include="ReviewList.aspx" />
+    <Content Include="SearchForm.aspx" />
+    <Content Include="SearchResults.aspx" />
+    <Content Include="ShoppingCart.aspx" />
+    <Content Include="ShowImages.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddToCart.aspx.cs">
+      <DependentUpon>AddToCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddToCart.aspx.designer.cs">
+      <DependentUpon>AddToCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\PasswordEncrypt.aspx.cs">
+      <DependentUpon>PasswordEncrypt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\PasswordEncrypt.aspx.designer.cs">
+      <DependentUpon>PasswordEncrypt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agreement.aspx.cs">
+      <DependentUpon>Agreement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agreement.aspx.designer.cs">
+      <DependentUpon>Agreement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AlsoBought.aspx.cs">
+      <DependentUpon>AlsoBought.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AlsoBought.aspx.designer.cs">
+      <DependentUpon>AlsoBought.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CheckLogin.aspx.cs">
+      <DependentUpon>CheckLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckLogin.aspx.designer.cs">
+      <DependentUpon>CheckLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CheckOut.aspx.cs">
+      <DependentUpon>CheckOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckOut.aspx.designer.cs">
+      <DependentUpon>CheckOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Company.aspx.cs">
+      <DependentUpon>Company.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Company.aspx.designer.cs">
+      <DependentUpon>Company.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyAdmin.aspx.cs">
+      <DependentUpon>CompanyAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompanyAdmin.aspx.designer.cs">
+      <DependentUpon>CompanyAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EventNames.aspx.cs">
+      <DependentUpon>EventNames.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EventNames.aspx.designer.cs">
+      <DependentUpon>EventNames.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetails.aspx.cs">
+      <DependentUpon>OrderDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderDetails.aspx.designer.cs">
+      <DependentUpon>OrderDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderList.aspx.cs">
+      <DependentUpon>OrderList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderList.aspx.designer.cs">
+      <DependentUpon>OrderList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordReminder.aspx.cs">
+      <DependentUpon>PasswordReminder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PasswordReminder.aspx.designer.cs">
+      <DependentUpon>PasswordReminder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PopularItems.aspx.cs">
+      <DependentUpon>PopularItems.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PopularItems.aspx.designer.cs">
+      <DependentUpon>PopularItems.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductCatalog.aspx.cs">
+      <DependentUpon>ProductCatalog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductCatalog.aspx.designer.cs">
+      <DependentUpon>ProductCatalog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductDetailsPage.aspx.cs">
+      <DependentUpon>ProductDetailsPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductDetailsPage.aspx.designer.cs">
+      <DependentUpon>ProductDetailsPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReviewList.aspx.cs">
+      <DependentUpon>ReviewList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReviewList.aspx.designer.cs">
+      <DependentUpon>ReviewList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchForm.aspx.cs">
+      <DependentUpon>SearchForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchForm.aspx.designer.cs">
+      <DependentUpon>SearchForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchResults.aspx.cs">
+      <DependentUpon>SearchResults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchResults.aspx.designer.cs">
+      <DependentUpon>SearchResults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShoppingCart.aspx.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShoppingCart.aspx.designer.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowImages.aspx.cs">
+      <DependentUpon>ShowImages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowImages.aspx.designer.cs">
+      <DependentUpon>ShowImages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\CategoriesDB.cs" />
+    <Compile Include="App_Code\CustomersDB.cs" />
+    <Compile Include="App_Code\Security.cs" />
+    <Compile Include="App_Code\ProductsDB.cs" />
+    <Compile Include="App_Code\OrdersDB.cs" />
+    <Compile Include="App_Code\ReviewsDB.cs" />
+    <Compile Include="App_Code\ShoppingCartDB.cs" />
+    <Compile Include="CategoryAdd.aspx.cs">
+      <DependentUpon>CategoryAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CategoryAdd.aspx.designer.cs">
+      <DependentUpon>CategoryAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CategoryList.aspx.cs">
+      <DependentUpon>CategoryList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CategoryList.aspx.designer.cs">
+      <DependentUpon>CategoryList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -121,10 +317,32 @@
     <Compile Include="Masterpage.Master.designer.cs">
       <DependentUpon>Masterpage.Master</DependentUpon>
     </Compile>
+    <Compile Include="ProductAdd.aspx.cs">
+      <DependentUpon>ProductAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductAdd.aspx.designer.cs">
+      <DependentUpon>ProductAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductPages.aspx.cs">
+      <DependentUpon>ProductPages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductPages.aspx.designer.cs">
+      <DependentUpon>ProductPages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductsLIst.aspx.cs">
+      <DependentUpon>ProductsLIst.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductsLIst.aspx.designer.cs">
+      <DependentUpon>ProductsLIst.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Masterpage.Master" />
+    <Content Include="Admin\MasterPage.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -133,7 +351,12 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
